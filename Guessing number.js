@@ -1,4 +1,4 @@
-let gameNum = 50;
+let gameNum = Math.floor(Math.random() * 100) + 1;
 let userNum = prompt("Guess a Number between 1 and 100");
 
 {
